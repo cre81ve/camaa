@@ -8,7 +8,7 @@
         <!--CA-MAA-->
         <scene sceneID="cyU-pn-wV9">
             <objects>
-                <viewController storyboardIdentifier="appcontroller" id="j9Q-ZG-T2a" customClass="AppsViewController" customModule="camaa1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="appcontroller" id="j9Q-ZG-T2a" customClass="AppsViewController" customModule="CA_loT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="syi-Dx-Nwt"/>
                         <viewControllerLayoutGuide type="bottom" id="Pa9-3Z-tfn"/>
@@ -21,7 +21,7 @@
                                 <rect key="frame" x="3" y="3" width="594" height="594"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="appCell" rowHeight="75" id="lyK-Ra-SgU" customClass="AppCellTableViewCell" customModule="camaa1" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="appCell" rowHeight="75" id="lyK-Ra-SgU" customClass="AppCellTableViewCell" customModule="CA_loT" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="594" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lyK-Ra-SgU" id="acL-KQ-WIA">
@@ -85,7 +85,7 @@
         <!--CA loT-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="camaa1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CA_loT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -101,7 +101,7 @@
                                     <constraint firstAttribute="height" constant="431" id="6X1-nZ-3e0"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="maaCell" rowHeight="166" id="nhy-2a-Nvc" customClass="MaaCell" customModule="camaa1" customModuleProvider="target">
+                                    <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="maaCell" rowHeight="166" id="nhy-2a-Nvc" customClass="MaaCell" customModule="CA_loT" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="590" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nhy-2a-Nvc" id="zZB-m1-vgK">
@@ -236,17 +236,28 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ax4-nI-XEu">
                                 <rect key="frame" x="5" y="5" width="590" height="65"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample Car App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaZ-ll-ggH">
-                                        <rect key="frame" x="165" y="11" width="259.5" height="43"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaZ-ll-ggH">
+                                        <rect key="frame" x="198" y="11" width="194" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bw-logo" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-Sf-o9J">
+                                        <rect key="frame" x="123" y="8" width="54" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="kWj-oO-VCx"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.36418473400000001" green="0.61382341289999998" blue="0.79999210860000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="SaZ-ll-ggH" secondAttribute="centerY" id="1MN-CM-ble"/>
+                                    <constraint firstAttribute="centerX" secondItem="SaZ-ll-ggH" secondAttribute="centerX" id="8Dj-Re-v0y"/>
+                                    <constraint firstItem="SaZ-ll-ggH" firstAttribute="leading" secondItem="kbs-Sf-o9J" secondAttribute="trailing" constant="21" id="8FY-OC-Kbj"/>
                                     <constraint firstAttribute="centerY" secondItem="SaZ-ll-ggH" secondAttribute="centerY" id="GJj-oa-lzw"/>
+                                    <constraint firstAttribute="bottom" secondItem="kbs-Sf-o9J" secondAttribute="bottom" constant="8" id="ZYC-PR-xfD"/>
                                     <constraint firstAttribute="centerX" secondItem="SaZ-ll-ggH" secondAttribute="centerX" id="boh-nF-DOg"/>
+                                    <constraint firstItem="kbs-Sf-o9J" firstAttribute="top" secondItem="Ax4-nI-XEu" secondAttribute="top" constant="8" id="hzR-zX-OOO"/>
                                     <constraint firstAttribute="height" constant="65" id="keY-x5-mvp"/>
                                 </constraints>
                             </view>
@@ -313,6 +324,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bw-logo" width="31" height="25"/>
         <image name="done.png" width="82" height="31"/>
     </resources>
 </document>
