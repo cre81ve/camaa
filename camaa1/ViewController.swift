@@ -44,7 +44,26 @@ class ViewController: UIViewController ,UITableViewDataSource, UITableViewDelega
         tc.metricUnit.text = m.metricUnit
         tc.metricDescription.text = m.metricDesc
         tc.metricValue.text = m.metricValue
-        
+        tc.guageValue = (m.metricValue as NSString).floatValue
+
+        if(indexPath.row == 0 ) {
+             tc.addTimerNoRepeat()
+        }
+        if(indexPath.row == 1 ) {
+            tc.addTimer()
+        }
+        if(indexPath.row == 2 ) {
+            tc.addTimerNoRepeat()
+
+        }
+        if(indexPath.row == 3 ) {
+            tc.addTimerNoRepeat()
+
+        }
+        if(indexPath.row == 4 ) {
+            tc.addTimerNoRepeat()
+
+        }
      
         return tc
     }

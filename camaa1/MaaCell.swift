@@ -17,13 +17,26 @@ class MaaCell: UITableViewCell {
     @IBOutlet weak var metricUnit: UILabel!
     @IBOutlet weak var metricValue: UILabel!
     @IBOutlet weak var metricDescription: UILabel!
+    
+    var guageValue:Float = 10
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         setupGuage()
+        
+    }
+    
+    func addTimer() {
         NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("guageUpdateTimer"), userInfo: nil, repeats: true)
         
-       
+
+    }
+    
+    
+    func addTimerNoRepeat() {
+        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("guageUpdateTimerVal"), userInfo: nil, repeats: false)
+        
+        
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
@@ -61,11 +74,17 @@ class MaaCell: UITableViewCell {
         _guageView.needleHeight = 0.4;
         _guageView.needleScrewStyle = WMGaugeViewNeedleScrewStylePlain;
         _guageView.needleScrewRadius = 0.05;
+        _guageView.value = guageValue
     }
     
     func guageUpdateTimer() {
         _guageView.value = Float(rand())%_guageView.maxValue
         metricValue.text = String(Int(_guageView.value))
+    }
+    
+    func guageUpdateTimerVal() {
+        _guageView.value = guageValue
+        metricValue.text = String(Int(guageValue))
     }
 
 }
