@@ -36,14 +36,14 @@
 		64225AC3CDDA461F3220C4BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		70E2926364C12FC36DA824B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4813CC1A2FEE9400B1E863 /* AppCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCellTableViewCell.swift; sourceTree = "<group>"; };
-		BDB33A1B1A2EC00D00AA8236 /* camaa1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camaa1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB33A1B1A2EC00D00AA8236 /* CA loT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CA loT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB33A1F1A2EC00D00AA8236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDB33A201A2EC00D00AA8236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB33A221A2EC00D00AA8236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BDB33A251A2EC00D00AA8236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDB33A271A2EC00D00AA8236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDB33A2A1A2EC00D00AA8236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BDB33A301A2EC00E00AA8236 /* camaa1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camaa1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB33A301A2EC00E00AA8236 /* CA loTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CA loTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB33A351A2EC00E00AA8236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDB33A361A2EC00E00AA8236 /* camaa1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camaa1Tests.swift; sourceTree = "<group>"; };
 		BDD3C6721A2EC21000569CCA /* camaa1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "camaa1-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		BDB33A121A2EC00D00AA8236 = {
 			isa = PBXGroup;
 			children = (
-				BDB33A1D1A2EC00D00AA8236 /* camaa1 */,
+				BDB33A1D1A2EC00D00AA8236 /* CA loT */,
 				BDB33A331A2EC00E00AA8236 /* camaa1Tests */,
 				BDB33A1C1A2EC00D00AA8236 /* Products */,
 				109DB0A4082E7E72D594289C /* Pods */,
@@ -103,13 +103,13 @@
 		BDB33A1C1A2EC00D00AA8236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDB33A1B1A2EC00D00AA8236 /* camaa1.app */,
-				BDB33A301A2EC00E00AA8236 /* camaa1Tests.xctest */,
+				BDB33A1B1A2EC00D00AA8236 /* CA loT.app */,
+				BDB33A301A2EC00E00AA8236 /* CA loTTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDB33A1D1A2EC00D00AA8236 /* camaa1 */ = {
+		BDB33A1D1A2EC00D00AA8236 /* CA loT */ = {
 			isa = PBXGroup;
 			children = (
 				BDD3C67E1A2EF7CB00569CCA /* Api */,
@@ -123,6 +123,7 @@
 				BDB33A1E1A2EC00D00AA8236 /* Supporting Files */,
 				BDD3C6721A2EC21000569CCA /* camaa1-Bridging-Header.h */,
 			);
+			name = "CA loT";
 			path = camaa1;
 			sourceTree = "<group>";
 		};
@@ -188,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDB33A1A1A2EC00D00AA8236 /* camaa1 */ = {
+		BDB33A1A1A2EC00D00AA8236 /* CA loT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDB33A3A1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "camaa1" */;
+			buildConfigurationList = BDB33A3A1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "CA loT" */;
 			buildPhases = (
 				05C30DB12BB36ED83BE16318 /* Check Pods Manifest.lock */,
 				BDB33A171A2EC00D00AA8236 /* Sources */,
@@ -202,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = camaa1;
+			name = "CA loT";
 			productName = camaa1;
-			productReference = BDB33A1B1A2EC00D00AA8236 /* camaa1.app */;
+			productReference = BDB33A1B1A2EC00D00AA8236 /* CA loT.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDB33A2F1A2EC00E00AA8236 /* camaa1Tests */ = {
+		BDB33A2F1A2EC00E00AA8236 /* CA loTTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDB33A3D1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "camaa1Tests" */;
+			buildConfigurationList = BDB33A3D1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "CA loTTests" */;
 			buildPhases = (
 				BDB33A2C1A2EC00E00AA8236 /* Sources */,
 				BDB33A2D1A2EC00E00AA8236 /* Frameworks */,
@@ -220,9 +221,9 @@
 			dependencies = (
 				BDB33A321A2EC00E00AA8236 /* PBXTargetDependency */,
 			);
-			name = camaa1Tests;
+			name = "CA loTTests";
 			productName = camaa1Tests;
-			productReference = BDB33A301A2EC00E00AA8236 /* camaa1Tests.xctest */;
+			productReference = BDB33A301A2EC00E00AA8236 /* CA loTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDB33A161A2EC00D00AA8236 /* Build configuration list for PBXProject "camaa1" */;
+			buildConfigurationList = BDB33A161A2EC00D00AA8236 /* Build configuration list for PBXProject "CA loT" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -256,8 +257,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDB33A1A1A2EC00D00AA8236 /* camaa1 */,
-				BDB33A2F1A2EC00E00AA8236 /* camaa1Tests */,
+				BDB33A1A1A2EC00D00AA8236 /* CA loT */,
+				BDB33A2F1A2EC00E00AA8236 /* CA loTTests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +344,7 @@
 /* Begin PBXTargetDependency section */
 		BDB33A321A2EC00E00AA8236 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BDB33A1A1A2EC00D00AA8236 /* camaa1 */;
+			target = BDB33A1A1A2EC00D00AA8236 /* CA loT */;
 			targetProxy = BDB33A311A2EC00E00AA8236 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -453,7 +454,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = camaa1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CA loT";
 				SWIFT_OBJC_BRIDGING_HEADER = "camaa1/camaa1-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -467,7 +468,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = camaa1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CA loT";
 				SWIFT_OBJC_BRIDGING_HEADER = "camaa1/camaa1-Bridging-Header.h";
 			};
 			name = Release;
@@ -486,7 +487,7 @@
 				);
 				INFOPLIST_FILE = camaa1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CA loTTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camaa1.app/camaa1";
 			};
 			name = Debug;
@@ -501,7 +502,7 @@
 				);
 				INFOPLIST_FILE = camaa1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CA loTTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camaa1.app/camaa1";
 			};
 			name = Release;
@@ -509,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDB33A161A2EC00D00AA8236 /* Build configuration list for PBXProject "camaa1" */ = {
+		BDB33A161A2EC00D00AA8236 /* Build configuration list for PBXProject "CA loT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDB33A381A2EC00E00AA8236 /* Debug */,
@@ -518,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDB33A3A1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "camaa1" */ = {
+		BDB33A3A1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "CA loT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDB33A3B1A2EC00E00AA8236 /* Debug */,
@@ -527,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDB33A3D1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "camaa1Tests" */ = {
+		BDB33A3D1A2EC00E00AA8236 /* Build configuration list for PBXNativeTarget "CA loTTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDB33A3E1A2EC00E00AA8236 /* Debug */,

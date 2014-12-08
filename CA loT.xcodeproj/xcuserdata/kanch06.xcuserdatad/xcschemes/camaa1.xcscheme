@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BDB33A1A1A2EC00D00AA8236"
-               BuildableName = "camaa1.app"
-               BlueprintName = "camaa1"
-               ReferencedContainer = "container:camaa1.xcodeproj">
+               BuildableName = "CA loT.app"
+               BlueprintName = "CA loT"
+               ReferencedContainer = "container:CA loT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BDB33A2F1A2EC00E00AA8236"
-               BuildableName = "camaa1Tests.xctest"
-               BlueprintName = "camaa1Tests"
-               ReferencedContainer = "container:camaa1.xcodeproj">
+               BuildableName = "CA loTTests.xctest"
+               BlueprintName = "CA loTTests"
+               ReferencedContainer = "container:CA loT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BDB33A2F1A2EC00E00AA8236"
-               BuildableName = "camaa1Tests.xctest"
-               BlueprintName = "camaa1Tests"
-               ReferencedContainer = "container:camaa1.xcodeproj">
+               BuildableName = "CA loTTests.xctest"
+               BlueprintName = "CA loTTests"
+               ReferencedContainer = "container:CA loT.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDB33A1A1A2EC00D00AA8236"
-            BuildableName = "camaa1.app"
-            BlueprintName = "camaa1"
-            ReferencedContainer = "container:camaa1.xcodeproj">
+            BuildableName = "CA loT.app"
+            BlueprintName = "CA loT"
+            ReferencedContainer = "container:CA loT.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDB33A1A1A2EC00D00AA8236"
-            BuildableName = "camaa1.app"
-            BlueprintName = "camaa1"
-            ReferencedContainer = "container:camaa1.xcodeproj">
+            BuildableName = "CA loT.app"
+            BlueprintName = "CA loT"
+            ReferencedContainer = "container:CA loT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDB33A1A1A2EC00D00AA8236"
-            BuildableName = "camaa1.app"
-            BlueprintName = "camaa1"
-            ReferencedContainer = "container:camaa1.xcodeproj">
+            BuildableName = "CA loT.app"
+            BlueprintName = "CA loT"
+            ReferencedContainer = "container:CA loT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
